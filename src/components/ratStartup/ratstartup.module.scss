@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+$finalHeight: 250px;
+$finalWidth: 3 * $finalHeight;
+$scrollBarHeight: 1px;
+
+.ratStartup {
+    width: 1200px;
+    margin: 0 auto;
+    color: white;
+
+    h2 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .item {
+        width: 300px;
+        height: 200px;
+    
+        h3 {
+            font-size: 18px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        div {
+            text-align: center;
+            margin-bottom: 5px;
+        }
+    
+        .rat {
+
+        }
+    }
+
+    .items {
+        display: flex;
+    }
+}
+
+// ::-webkit-scrollbar {
+//   width: $scrollBarHeight;
+//   height: $scrollBarHeight;
+// }
+
+// ::-webkit-scrollbar-button {
+//   width: $scrollBarHeight;
+//   height: $scrollBarHeight;
+// }
+
+// .horizontal_scroll_wrapper {
+//   position: absolute;
+//   display: block;
+//   top: 0;
+//   left: 0;
+//   width: calc(#{$finalHeight} + #{$scrollBarHeight});
+//   max-height: $finalWidth;
+//   margin: 0;
+//   padding-top: $scrollBarHeight;
+//   background: #abc;
+//   overflow-y: auto;
+//   overflow-x: hidden;
+//   transform: rotate(-90deg) translateY(-$finalHeight);
+//   transform-origin: right top;
+//   & > div {
+//     display: block;
+//     padding: 5px;
+//     background: #cab;
+//     transform: rotate(90deg);
+//     transform-origin: right top;
+//   }
+// }
+
+// .squares {
+//   padding: $finalHeight 0 0 0;
+//   & > div {
+//     width: $finalHeight;
+//     height: $finalHeight;
+//     margin: 10px 0;
+//   }
+// }

@@ -1,0 +1,84 @@
+.wrapper {
+    height: 85.6vh;
+
+    .passportProject {
+        display: flex;
+        width: 1350px;
+        margin: 0 auto;
+
+        & > div {
+            display: flex;
+            flex-direction: column;
+            width: 450px;
+            justify-content: space-between;
+        }
+    }
+}
+
+.personal {
+    .wrapper__avatar {
+        margin-bottom: 60px;
+    }
+}
+
+.inputBox {
+    position: relative;
+    width: 400px;
+
+    input, textarea {
+        width: 80%;
+        padding: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        background: #1d2b3a;
+        border-radius: 5px;
+        outline: none;
+        color: #fff;
+        font-size: 1.4em;
+        transition: .5s;
+
+        &:focus ~ span {
+            color: #1d2b3a;
+            transform: translateX(10px) translateY(-7px);
+            font-size: .65em;
+            padding: 0 10px;
+            background: #00dfc4;
+            border-left: 1px solid #00dfc4; 
+            border-right: 1px solid #00dfc4; 
+            letter-spacing: .2em;
+            border-radius: 3px;
+        }
+
+        &:valid, &:focus {
+            border: 1px solid #00dfc4;
+        }
+    }
+
+    span {
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 10px;
+        pointer-events: none;
+        font-size: 1em;
+        color: rgba(255, 255, 255, 0.25);
+        text-transform: uppercase;
+        transition: .5s;
+    }
+}
+
+.btn {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+
+    button {
+        width: 200px;
+        height: 50px;
+        border: 0;
+        outline: 0;
+        border-radius: 20px;
+        cursor: pointer;
+        background: #1d2b3a;
+        color: white;
+    }
+}

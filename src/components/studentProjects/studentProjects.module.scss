@@ -1,0 +1,87 @@
+.wrapper {
+    color: white;
+    width: 1200px;
+    margin: 100px auto 0;
+    padding-bottom: 100px;
+
+    h1 {
+        margin-bottom: 40px;
+    }
+
+    .filters {
+        margin-bottom: 30px;
+
+        input {
+            width: 280px;
+            height: 40px;
+            border-radius: 20px;
+            background: #959DAB;
+            border: 0;
+            outline: 0;
+            padding-left: 15px;
+            color: #411C46;
+            font-size: 18px;
+        }
+    }
+
+    .item {
+        width: 1200px;
+        background: #959DAB;
+        border-radius: 16px;
+        padding: 30px;
+        box-sizing: border-box;
+        margin-bottom: 60px;
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+
+        h3 {
+            margin-bottom: 40px;
+        }
+
+        .infoBlock {
+            display: flex;
+            justify-content: space-between;
+    
+            .description {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 600px;
+            }
+        }
+    }
+}
+
+.yourProjects {
+    display: flex;
+    justify-content: end;
+
+    button {
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        outline: 0;
+        border: 0;
+        background: #959DAB;
+        margin-bottom: 40px;
+        cursor: pointer;
+    }
+}
+
+.btn__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    button {
+        width: 200px;
+        height: 40px;
+        border: 0;
+        outline: 0;
+        border-radius: 10px;
+        background: #959DAB;
+        cursor: pointer;
+    }
+}

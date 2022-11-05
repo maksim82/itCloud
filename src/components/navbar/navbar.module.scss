@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.container {
+  box-sizing: border-box;
+  padding: 20px 0 0;
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    font-family: 'Shalimar', cursive;
+    font-weight: bold;
+    font-size: 72px;
+    color: orange
+  }
+
+  // div {
+  //   display: flex;
+  //   align-items: center;
+
+  //   .users {
+  //     font-family: 'Anton', sans-serif;
+  //     color: white;
+  //     margin-right: 30px;
+  //     font-size: 32px;
+  //   }
+  // }
+}
+
+.wrapper__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #93879C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
